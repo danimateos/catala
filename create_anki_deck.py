@@ -273,13 +273,16 @@ def create_csv_files(words: List[str], words_per_file: int = 1500, max_words: in
                 batch_results = process_word_batch(current_batch)
                 
                 # Process each word in the batch
-                for word_idx, word in enumerate(current_batch, start=start_idx + batch_start + 1):
+                for word in current_batch:
+                    # Calculate the word number based on the file's start index and the word's position in the file
+                    word_idx = start_idx + batch_start + current_batch.index(word) + 1
                     logging.info(f"Processing word {word_idx}/{len(words)}: {word}")
                     word_meanings = get_word_info(word, batch_results)
                     
                     for meaning_idx, word_info in enumerate(word_meanings, start=1):
                         audio_filename = f"{clean_filename(word_info['catalan_example'])}.mp3"
-                        card_id = f"paraula_{word_idx:04d}_{meaning_idx}"
+                        # Card ID format: paraula_0001_01 (word number stays same for all meanings)
+                        card_id = f"paraula_{word_idx:04d}_{meaning_idx:02d}"
                         
                         writer.writerow([
                             card_id,  # card_id
