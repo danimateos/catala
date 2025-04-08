@@ -1,0 +1,101 @@
+card_id;front;back;catalan;español;palabra;categoría_gramatical;categoría_de_uso;audio_file_name
+cat_esp_001;CAT: El llibre és {{c1::de}} Joan.<br>ESP: El libro es {{c2::de}} Juan.;[sound:el_llibre_es_de_joan.mp3];El llibre és de Joan.;El libro es de Juan.;de;preposició;Connectors/Preposicions;el_llibre_es_de_joan.mp3
+cat_esp_002;CAT: {{c1::La}} casa és nova.<br>ESP: {{c2::La}} casa es nueva.;[sound:la_casa_es_nova.mp3];La casa és nova.;La casa es nueva.;la;article;Articles/Determinants;la_casa_es_nova.mp3
+cat_esp_003;CAT: Pa {{c1::i}} formatge.<br>ESP: Pan {{c2::y}} queso.;[sound:pa_i_formatge.mp3];Pa i formatge.;Pan y queso.;i;conjunció;Connectors/Preposicions;pa_i_formatge.mp3
+cat_esp_004;CAT: Vaig {{c1::a}} la platja.<br>ESP: Voy {{c2::a}} la playa.;[sound:vaig_a_la_platja.mp3];Vaig a la platja.;Voy a la playa.;a;preposició;Connectors/Preposicions;vaig_a_la_platja.mp3
+cat_esp_005;CAT: {{c1::El}} cotxe és vermell.<br>ESP: {{c2::El}} coche es rojo.;[sound:el_cotxe_es_vermell.mp3];El cotxe és vermell.;El coche es rojo.;el;article;Articles/Determinants;el_cotxe_es_vermell.mp3
+cat_esp_006;CAT: Crec {{c1::que}} sí.<br>ESP: Creo {{c2::que}} sí.;[sound:crec_que_si.mp3];Crec que sí.;Creo que sí.;que;conjunció/pronom;Connectors/Pronoms;crec_que_si.mp3
+cat_esp_007;CAT: Estic {{c1::en}} pijama.<br>ESP: Estoy {{c2::en}} pijama.;[sound:estic_en_pijama.mp3];Estic en pijama.;Estoy en pijama.;en;preposició;Connectors/Preposicions;estic_en_pijama.mp3
+cat_esp_008;CAT: {{c1::Un}} home alt.<br>ESP: {{c2::Un}} hombre alto.;[sound:un_home_alt.mp3];Un home alt.;Un hombre alto.;un;article;Articles/Determinants;un_home_alt.mp3
+cat_esp_009;CAT: Vull {{c1::ser}} metge.<br>ESP: Quiero {{c2::ser}} médico.;[sound:vull_ser_metge.mp3];Vull ser metge.;Quiero ser médico.;ser;verb;Verbs Bàsics;vull_ser_metge.mp3
+cat_esp_010;CAT: {{c1::No}} puc venir.<br>ESP: {{c2::No}} puedo venir.;[sound:no_puc_venir.mp3];No puc venir.;No puedo venir.;no;adverbi;Negació/Respostes;no_puc_venir.mp3
+cat_esp_011;CAT: Ho faig {{c1::per}} tu.<br>ESP: Lo hago {{c2::por}} ti.;[sound:ho_faig_per_tu.mp3];Ho faig per tu.;Lo hago por ti.;per;preposició;Connectors/Preposicions;ho_faig_per_tu.mp3
+cat_esp_012;CAT: Ell {{c1::es}} renta.<br>ESP: Él {{c2::se}} lava.;[sound:ell_es_renta.mp3];Ell es renta.;Él se lava.;es;pronom;Pronoms Reflexius;ell_es_renta.mp3
+cat_esp_013;CAT: Cafè {{c1::amb}} llet.<br>ESP: Café {{c2::con}} leche.;[sound:cafe_amb_llet.mp3];Cafè amb llet.;Café con leche.;amb;preposició;Connectors/Preposicions;cafe_amb_llet.mp3
+cat_esp_014;CAT: {{c1::Una}} dona forta.<br>ESP: {{c2::Una}} mujer fuerte.;[sound:una_dona_forta.mp3];Una dona forta.;Una mujer fuerte.;una;article;Articles/Determinants;una_dona_forta.mp3
+cat_esp_015;CAT: {{c1::Els}} nens juguen.<br>ESP: {{c2::Los}} niños juegan.;[sound:els_nens_juguen.mp3];Els nens juguen.;Los niños juegan.;els;article;Articles/Determinants;els_nens_juguen.mp3
+cat_esp_016;CAT: {{c1::Les}} flors són boniques.<br>ESP: {{c2::Las}} flores son bonitas.;[sound:les_flors_son_boniques.mp3];Les flors són boniques.;Las flores son bonitas.;les;article;Articles/Determinants;les_flors_son_boniques.mp3
+cat_esp_017;CAT: Vull {{c1::més}} sopa.<br>ESP: Quiero {{c2::más}} sopa.;[sound:vull_mes_sopa.mp3];Vull més sopa.;Quiero más sopa.;més;adverbi/quantificador;Quantitat;vull_mes_sopa.mp3
+cat_esp_018;CAT: {{c1::Haver}} menjat.<br>ESP: {{c2::Haber}} comido.;[sound:haver_menjat.mp3];Haver menjat.;Haber comido.;haver;verb auxiliar;Verbs Bàsics;haver_menjat.mp3
+cat_esp_019;CAT: {{c1::Fer}} un pastís.<br>ESP: {{c2::Hacer}} un pastel.;[sound:fer_un_pastis.mp3];Fer un pastís.;Hacer un pastel.;fer;verb;Accions Bàsiques;fer_un_pastis.mp3
+cat_esp_020;CAT: Ràpid {{c1::com}} el vent.<br>ESP: Rápido {{c2::como}} el viento.;[sound:rapid_com_el_vent.mp3];Ràpid com el vent.;Rápido como el viento.;com;adverbi/conjunció;Comparació/Manera;rapid_com_el_vent.mp3
+cat_esp_021;CAT: Te {{c1::o}} cafè?<br>ESP: ¿Té {{c2::o}} café?;[sound:te_o_cafe.mp3];Te o cafè?;¿Té o café?;o;conjunció;Connectors/Preposicions;te_o_cafe.mp3
+cat_esp_022;CAT: És car, {{c1::però}} m'agrada.<br>ESP: Es caro, {{c2::pero}} me gusta.;[sound:es_car_pero_magrada.mp3];És car, però m'agrada.;Es caro, pero me gusta.;però;conjunció;Connectors/Preposicions;es_car_pero_magrada.mp3
+cat_esp_023;CAT: És el {{c1::seu}} llibre.<br>ESP: Es {{c2::su}} libro (de él/ella/usted...).;[sound:es_el_seu_llibre.mp3];És el seu llibre.;Es su libro.;seu/seva/seus/seves;possessiu;Possessius;es_el_seu_llibre.mp3
+cat_esp_024;CAT: {{c1::Aquest}} és el meu.<br>ESP: {{c2::Este}} es el mío.;[sound:aquest_es_el_meu.mp3];Aquest és el meu.;Este es el mío.;aquest/aquesta...;demostratiu;Demostratius;aquest_es_el_meu.mp3
+cat_esp_025;CAT: {{c1::Si}} plou, no surto.<br>ESP: {{c2::Si}} llueve, no salgo.;[sound:si_plou_no_surto.mp3];Si plou, no surto.;Si llueve, no salgo.;si;conjunció;Condicional;si_plou_no_surto.mp3
+cat_esp_026;CAT: Menja {{c1::molt}}.<br>ESP: Come {{c2::mucho}}.;[sound:menja_molt.mp3];Menja molt.;Come mucho.;molt/molta...;adverbi/quantificador;Quantitat;menja_molt.mp3
+cat_esp_027;CAT: Un {{c1::any}} té dotze mesos.<br>ESP: Un {{c2::año}} tiene doce meses.;[sound:un_any_te_dotze_mesos.mp3];Un any té dotze mesos.;Un año tiene doce meses.;any;nom;Temps;un_any_te_dotze_mesos.mp3
+cat_esp_028;CAT: Vull {{c1::tot}} el pastís.<br>ESP: Quiero {{c2::todo}} el pastel.;[sound:vull_tot_el_pastis.mp3];Vull tot el pastís.;Quiero todo el pastel.;tot/tota/tots/totes;quantificador/pronom;Quantitat;vull_tot_el_pastis.mp3
+cat_esp_029;CAT: Jo {{c1::també}} hi vaig.<br>ESP: Yo {{c2::también}} voy.;[sound:jo_tambe_hi_vaig.mp3];Jo també hi vaig.;Yo también voy.;també;adverbi;Addició;jo_tambe_hi_vaig.mp3
+cat_esp_030;CAT: Vull {{c1::anar}} a casa.<br>ESP: Quiero {{c2::ir}} a casa.;[sound:vull_anar_a_casa.mp3];Vull anar a casa.;Quiero ir a casa.;anar;verb;Accions Bàsiques;vull_anar_a_casa.mp3
+cat_esp_031;CAT: Quin {{c1::dia}} és avui?<br>ESP: ¿Qué {{c2::día}} es hoy?;[sound:quin_dia_es_avui.mp3];Quin dia és avui?;¿Qué día es hoy?;dia;nom;Temps;quin_dia_es_avui.mp3
+cat_esp_032;CAT: El gat dorm {{c1::sobre}} el sofà.<br>ESP: El gato duerme {{c2::sobre}} el sofá.;[sound:el_gat_dorm_sobre_el_sofa.mp3];El gat dorm sobre el sofà.;El gato duerme sobre el sofá.;sobre;preposició;Lloc/Connectors;el_gat_dorm_sobre_el_sofa.mp3
+cat_esp_033;CAT: Què vols {{c1::dir}}?<br>ESP: ¿Qué quieres {{c2::decir}}?;[sound:que_vols_dir.mp3];Què vols dir?;¿Qué quieres decir?;dir;verb;Comunicació;que_vols_dir.mp3
+cat_esp_034;CAT: {{c1::Poder}} volar.<br>ESP: {{c2::Poder}} volar.;[sound:poder_volar.mp3];Poder volar.;Poder volar.;poder;verb;Verbs Modals;poder_volar.mp3
+cat_esp_035;CAT: Estic {{c1::entre}} tu i jo.<br>ESP: Estoy {{c2::entre}} tú y yo.;[sound:estic_entre_tu_i_jo.mp3];Estic entre tu i jo.;Estoy entre tú y yo.;entre;preposició;Lloc/Connectors;estic_entre_tu_i_jo.mp3
+cat_esp_036;CAT: {{c1::Tenir}} dos fills.<br>ESP: {{c2::Tener}} dos hijos.;[sound:tenir_dos_fills.mp3];Tenir dos fills.;Tener dos hijos.;tenir;verb;Verbs Bàsics;tenir_dos_fills.mp3
+cat_esp_037;CAT: Vull un {{c1::altre}}.<br>ESP: Quiero {{c2::otro}}.;[sound:vull_un_altre.mp3];Vull un altre.;Quiero otro.;altre/a/es;adjectiu/pronom;Indefinits;vull_un_altre.mp3
+cat_esp_038;CAT: Espera {{c1::fins}} demà.<br>ESP: Espera {{c2::hasta}} mañana.;[sound:espera_fins_dema.mp3];Espera fins demà.;Espera hasta mañana.;fins;preposició/adverbi;Temps/Lloc;espera_fins_dema.mp3
+cat_esp_039;CAT: Som al {{c1::mateix}} lloc.<br>ESP: Estamos en el {{c2::mismo}} lugar.;[sound:som_al_mateix_lloc.mp3];Som al mateix lloc.;Estamos en el mismo lugar.;mateix/a/os/es;adjectiu/pronom;Identitat;som_al_mateix_lloc.mp3
+cat_esp_040;CAT: Barcelona és {{c1::gran}}.<br>ESP: Barcelona es {{c2::grande}}.;[sound:barcelona_es_gran.mp3];Barcelona és gran.;Barcelona es grande.;gran;adjectiu;Descripció/Mida;barcelona_es_gran.mp3
+cat_esp_041;CAT: Un {{c1::home}} treballa.<br>ESP: Un {{c2::hombre}} trabaja.;[sound:un_home_treballa.mp3];Un home treballa.;Un hombre trabaja.;home;nom;Gent/Família;un_home_treballa.mp3
+cat_esp_042;CAT: Fa mal {{c1::temps}}.<br>ESP: Hace mal {{c2::tiempo}}.;[sound:fa_mal_temps.mp3];Fa mal temps.;Hace mal tiempo.;temps;nom;Temps/Abstracte;fa_mal_temps.mp3
+cat_esp_043;CAT: {{c1::Encara}} no ha arribat.<br>ESP: {{c2::Todavía}} no ha llegado.;[sound:encara_no_ha_arribat.mp3];Encara no ha arribat.;Todavía no ha llegado.;encara;adverbi;Temps;encara_no_ha_arribat.mp3
+cat_esp_044;CAT: És el {{c1::meu}} gat.<br>ESP: Es {{c2::mi}} gato.;[sound:es_el_meu_gat.mp3];És el meu gat.;Es mi gato.;meu/meva/meus/meves;possessiu;Possessius;es_el_meu_gat.mp3
+cat_esp_045;CAT: {{c1::Donar}} un regal.<br>ESP: {{c2::Dar}} un regalo.;[sound:donar_un_regal.mp3];Donar un regal.;Dar un regalo.;donar;verb;Accions Bàsiques;donar_un_regal.mp3
+cat_esp_046;CAT: La {{c1::vida}} és bella.<br>ESP: La {{c2::vida}} es bella.;[sound:la_vida_es_bella.mp3];La vida és bella.;La vida es bella.;vida;nom;Conceptes Abstractes;la_vida_es_bella.mp3
+cat_esp_047;CAT: El {{c1::primer}} dia.<br>ESP: El {{c2::primer}} día.;[sound:el_primer_dia.mp3];El primer dia.;El primer día.;primer/a/s;numeral/adjectiu;Ordre/Numerals;el_primer_dia.mp3
+cat_esp_048;CAT: Quina {{c1::cosa}} és?<br>ESP: ¿Qué {{c2::cosa}} es?;[sound:quina_cosa_es.mp3];Quina cosa és?;¿Qué cosa es?;cosa;nom;General/Abstracte;quina_cosa_es.mp3
+cat_esp_049;CAT: {{c1::Ja}} he acabat.<br>ESP: {{c2::Ya}} he terminado.;[sound:ja_he_acabat.mp3];Ja he acabat.;Ya he terminado.;ja;adverbi;Temps;ja_he_acabat.mp3
+cat_esp_050;CAT: Tinc {{c1::dos}} germans.<br>ESP: Tengo {{c2::dos}} hermanos.;[sound:tinc_dos_germans.mp3];Tinc dos germans.;Tengo dos hermanos.;dos/dues;numeral;Numerals;tinc_dos_germans.mp3
+cat_esp_051;CAT: Un cotxe {{c1::nou}}.<br>ESP: Un coche {{c2::nuevo}}.;[sound:un_cotxe_nou.mp3];Un cotxe nou.;Un coche nuevo.;nou/nova/nous/noves;adjectiu;Descripció;un_cotxe_nou.mp3
+cat_esp_052;CAT: Puc {{c1::veure}} el mar.<br>ESP: Puedo {{c2::ver}} el mar.;[sound:puc_veure_el_mar.mp3];Puc veure el mar.;Puedo ver el mar.;veure;verb;Sentits;puc_veure_el_mar.mp3
+cat_esp_053;CAT: Vine {{c1::quan}} puguis.<br>ESP: Ven {{c2::cuando}} puedas.;[sound:vine_quan_puguis.mp3];Vine quan puguis.;Ven cuando puedas.;quan;adverbi/conjunció;Temps/Connectors;vine_quan_puguis.mp3
+cat_esp_054;CAT: {{c1::On}} vius?<br>ESP: ¿{{c2::Dónde}} vives?;[sound:on_vius.mp3];On vius?;¿Dónde vives?;on;adverbi;Lloc;on_vius.mp3
+cat_esp_055;CAT: No {{c1::saber}} res.<br>ESP: No {{c2::saber}} nada.;[sound:no_saber_res.mp3];No saber res.;No saber nada.;saber;verb;Coneixement;no_saber_res.mp3
+cat_esp_056;CAT: Una {{c1::part}} del pastís.<br>ESP: Una {{c2::parte}} del pastel.;[sound:una_part_del_pastis.mp3];Una part del pastís.;Una parte del pastel.;part;nom;Quantitat/Parts;una_part_del_pastis.mp3
+cat_esp_057;CAT: Què ha {{c1::passat}}?<br>ESP: ¿Qué ha {{c2::pasado}}?;[sound:que_ha_passat.mp3];Què ha passat?;¿Qué ha pasado?;passar;verb;Esdeveniments;que_ha_passat.mp3
+cat_esp_058;CAT: Ell {{c1::sempre}} riu.<br>ESP: Él {{c2::siempre}} ríe.;[sound:ell_sempre_riu.mp3];Ell sempre riu.;Él siempre ríe.;sempre;adverbi;Freqüència;ell_sempre_riu.mp3
+cat_esp_059;CAT: {{c1::Voler}} és poder.<br>ESP: {{c2::Querer}} es poder.;[sound:voler_es_poder.mp3];Voler és poder.;Querer es poder.;voler;verb;Desitjos/Necessitats;voler_es_poder.mp3
+cat_esp_060;CAT: Estic a {{c1::casa}}.<br>ESP: Estoy en {{c2::casa}}.;[sound:estic_a_casa.mp3];Estic a casa.;Estoy en casa.;casa;nom;Llocs/Objectes;estic_a_casa.mp3
+cat_esp_061;CAT: {{c1::Semblar}} cansat.<br>ESP: {{c2::Parecer}} cansado.;[sound:semblar_cansat.mp3];Semblar cansat.;Parecer cansado.;semblar;verb;Aparença/Opinió;semblar_cansat.mp3
+cat_esp_062;CAT: Fes-ho {{c1::ara}} mateix.<br>ESP: Hazlo {{c2::ahora}} mismo.;[sound:fes_ho_ara_mateix.mp3];Fes-ho ara mateix.;Hazlo ahora mismo.;ara;adverbi;Temps;fes_ho_ara_mateix.mp3
+cat_esp_063;CAT: Un {{c1::bon}} amic.<br>ESP: Un {{c2::buen}} amigo.;[sound:un_bon_amic.mp3];Un bon amic.;Un buen amigo.;bo/bona/bons/bones;adjectiu;Descripció;un_bon_amic.mp3
+cat_esp_064;CAT: No tinc {{c1::cap}} idea.<br>ESP: No tengo {{c2::ninguna}} idea.;[sound:no_tinc_cap_idea.mp3];No tinc cap idea.;No tengo ninguna idea.;cap;determinant/pronom;Indefinits;no_tinc_cap_idea.mp3
+cat_esp_065;CAT: Tornaré {{c1::després}}.<br>ESP: Volveré {{c2::después}}.;[sound:tornare_despres.mp3];Tornaré després.;Volveré después.;després;adverbi;Temps;tornare_despres.mp3
+cat_esp_066;CAT: Cada {{c1::persona}} és única.<br>ESP: Cada {{c2::persona}} es única.;[sound:cada_persona_es_unica.mp3];Cada persona és única.;Cada persona es única.;persona;nom;Gent/Família;cada_persona_es_unica.mp3
+cat_esp_067;CAT: Què és {{c1::això}}?<br>ESP: ¿Qué es {{c2::esto}}?;[sound:que_es_aixo.mp3];Què és això?;¿Qué es esto?;això;pronom demostratiu;Demostratius;que_es_aixo.mp3
+cat_esp_068;CAT: {{c1::Només}} vull descansar.<br>ESP: {{c2::Solo}} quiero descansar.;[sound:nomes_vull_descansar.mp3];Només vull descansar.;Solo quiero descansar.;només;adverbi;Restricció;nomes_vull_descansar.mp3
+cat_esp_069;CAT: Viatjar pel {{c1::món}}.<br>ESP: Viajar por el {{c2::mundo}}.;[sound:viatjar_pel_mon.mp3];Viatjar pel món.;Viajar por el mundo.;món;nom;Llocs;viatjar_pel_mon.mp3
+cat_esp_070;CAT: Va ploure {{c1::durant}} la nit.<br>ESP: Llovió {{c2::durante}} la noche.;[sound:va_ploure_durant_la_nit.mp3];Va ploure durant la nit.;Llovió durante la noche.;durant;preposició;Temps;va_ploure_durant_la_nit.mp3
+cat_esp_071;CAT: Fes-ho d'una altra {{c1::manera}}.<br>ESP: Hazlo de otra {{c2::manera}}.;[sound:fes_ho_d_una_altra_manera.mp3];Fes-ho d'una altra manera.;Hazlo de otra manera.;manera;nom;Manera/Forma;fes_ho_d_una_altra_manera.mp3
+cat_esp_072;CAT: {{c1::Cada}} dia aprenc.<br>ESP: {{c2::Cada}} día aprendo.;[sound:cada_dia_aprenc.mp3];Cada dia aprenc.;Cada día aprendo.;cada;determinant;Indefinits;cada_dia_aprenc.mp3
+cat_esp_073;CAT: Un gat {{c1::petit}}.<br>ESP: Un gato {{c2::pequeño}}.;[sound:un_gat_petit.mp3];Un gat petit.;Un gato pequeño.;petit/a/s;adjectiu;Descripció/Mida;un_gat_petit.mp3
+cat_esp_074;CAT: M'agrada {{c1::parlar}} amb tu.<br>ESP: Me gusta {{c2::hablar}} contigo.;[sound:magrada_parlar_amb_tu.mp3];M'agrada parlar amb tu.;Me gusta hablar contigo.;parlar;verb;Comunicació;magrada_parlar_amb_tu.mp3
+cat_esp_075;CAT: No puc {{c1::trobar}} les claus.<br>ESP: No puedo {{c2::encontrar}} las llaves.;[sound:no_puc_trobar_les_claus.mp3];No puc trobar les claus.;No puedo encontrar las llaves.;trobar;verb;Accions/Resultats;no_puc_trobar_les_claus.mp3
+cat_esp_076;CAT: La {{c1::dona}} llegeix.<br>ESP: La {{c2::mujer}} lee.;[sound:la_dona_llegeix.mp3];La dona llegeix.;La mujer lee.;dona;nom;Gent/Família;la_dona_llegeix.mp3
+cat_esp_077;CAT: Qui {{c1::porta}} el menjar?<br>ESP: ¿Quién {{c2::trae}} la comida?;[sound:qui_porta_el_menjar.mp3];Qui porta el menjar?;¿Quién trae la comida?;portar;verb;Accions (Moviment);qui_porta_el_menjar.mp3
+cat_esp_078;CAT: Busco un {{c1::lloc}} tranquil.<br>ESP: Busco un {{c2::lugar}} tranquilo.;[sound:busco_un_lloc_tranquil.mp3];Busco un lloc tranquil.;Busco un lugar tranquilo.;lloc;nom;Llocs;busco_un_lloc_tranquil.mp3
+cat_esp_079;CAT: Molt {{c1::treball}} pendent.<br>ESP: Mucho {{c2::trabajo}} pendiente.;[sound:molt_treball_pendent.mp3];Molt treball pendent.;Mucho trabajo pendiente.;treball;nom;Feina/Activitat;molt_treball_pendent.mp3
+cat_esp_080;CAT: Em pots {{c1::deixar}} el llibre?<br>ESP: ¿Me puedes {{c2::dejar}} el libro?;[sound:em_pots_deixar_el_llibre.mp3];Em pots deixar el llibre?;¿Me puedes dejar el libro?;deixar;verb;Accions (Permís/Abandonar);em_pots_deixar_el_llibre.mp3
+cat_esp_081;CAT: Estudia {{c1::mentre}} escolta música.<br>ESP: Estudia {{c2::mientras}} escucha música.;[sound:estudia_mentre_escolta_musica.mp3];Estudia mentre escolta música.;Estudia mientras escucha música.;mentre;conjunció/adverbi;Temps/Connectors;estudia_mentre_escolta_musica.mp3
+cat_esp_082;CAT: Vols {{c1::venir}} amb mi?<br>ESP: ¿Quieres {{c2::venir}} conmigo?;[sound:vols_venir_amb_mi.mp3];Vols venir amb mi?;¿Quieres venir conmigo?;venir;verb;Accions (Moviment);vols_venir_amb_mi.mp3
+cat_esp_083;CAT: Ho has fet {{c1::bé}}.<br>ESP: Lo has hecho {{c2::bien}}.;[sound:ho_has_fet_be.mp3];Ho has fet bé.;Lo has hecho bien.;bé;adverbi;Manera/Qualitat;ho_has_fet_be.mp3
+cat_esp_084;CAT: És {{c1::important}} saber-ho.<br>ESP: Es {{c2::importante}} saberlo.;[sound:es_important_saber_ho.mp3];És important saber-ho.;Es importante saberlo.;important;adjectiu;Descripció/Valoració;es_important_saber_ho.mp3
+cat_esp_085;CAT: {{c1::Avui}} fa sol.<br>ESP: {{c2::Hoy}} hace sol.;[sound:avui_fa_sol.mp3];Avui fa sol.;Hoy hace sol.;avui;adverbi;Temps;avui_fa_sol.mp3
+cat_esp_086;CAT: Lluita {{c1::contra}} la injustícia.<br>ESP: Lucha {{c2::contra}} la injusticia.;[sound:lluita_contra_la_injusticia.mp3];Lluita contra la injustícia.;Lucha contra la injusticia.;contra;preposició;Oposició/Connectors;lluita_contra_la_injusticia.mp3
+cat_esp_087;CAT: Quin és el teu {{c1::país}}?<br>ESP: ¿Cuál es tu {{c2::país}}?;[sound:quin_es_el_teu_pais.mp3];Quin és el teu país?;¿Cuál es tu país?;país;nom;Llocs;quin_es_el_teu_pais.mp3
+cat_esp_088;CAT: {{c1::Necessitar}} ajuda.<br>ESP: {{c2::Necesitar}} ayuda.;[sound:necessitar_ajuda.mp3];Necessitar ajuda.;Necesitar ayuda.;necessitar;verb;Desitjos/Necessitats;necessitar_ajuda.mp3
+cat_esp_089;CAT: {{c1::Creure}} en tu.<br>ESP: {{c2::Creer}} en ti.;[sound:creure_en_tu.mp3];Creure en tu.;Creer en ti.;creure;verb;Opinió/Creença;creure_en_tu.mp3
+cat_esp_090;CAT: {{c1::Quant}} costa?<br>ESP: ¿{{c2::Cuánto}} cuesta?;[sound:quant_costa.mp3];Quant costa?;¿Cuánto cuesta?;quant/a/s;adverbi/pronom;Quantitat/Pregunta;quant_costa.mp3
+cat_esp_091;CAT: El director {{c1::general}}.<br>ESP: El director {{c2::general}}.;[sound:el_director_general.mp3];El director general.;El director general.;general;adjectiu;Descripció;el_director_general.mp3
+cat_esp_092;CAT: Cal {{c1::seguir}} les normes.<br>ESP: Hay que {{c2::seguir}} las normas.;[sound:cal_seguir_les_normes.mp3];Cal seguir les normes.;Hay que seguir las normas.;seguir;verb;Accions (Continuació);cal_seguir_les_normes.mp3
+cat_esp_093;CAT: Obre els {{c1::ulls}}.<br>ESP: Abre los {{c2::ojos}}.;[sound:obre_els_ulls.mp3];Obre els ulls.;Abre los ojos.;ull;nom;Parts del Cos;obre_els_ulls.mp3
+cat_esp_094;CAT: No ho faré {{c1::mai}}.<br>ESP: No lo haré {{c2::nunca}}.;[sound:no_ho_fare_mai.mp3];No ho faré mai.;No lo haré nunca.;mai;adverbi;Freqüència/Negació;no_ho_fare_mai.mp3
+cat_esp_095;CAT: Necessita més {{c1::força}}.<br>ESP: Necesita más {{c2::fuerza}}.;[sound:necessita_mes_forca.mp3];Necessita més força.;Necesita más fuerza.;força;nom;Qualitats/Abstracte;necessita_mes_forca.mp3
+cat_esp_096;CAT: No puc {{c1::entendre}} això.<br>ESP: No puedo {{c2::entender}} esto.;[sound:no_puc_entendre_aixo.mp3];No puc entendre això.;No puedo entender esto.;entendre;verb;Coneixement/Comprensió;no_puc_entendre_aixo.mp3
+cat_esp_097;CAT: Quan {{c1::començar}}?<br>ESP: ¿Cuándo {{c2::empezar}}?;[sound:quan_comencar.mp3];Quan començar?;¿Cuándo empezar?;començar;verb;Accions (Inici);quan_comencar.mp3
+cat_esp_098;CAT: {{c1::Aquell}} dia va ploure.<br>ESP: {{c2::Aquel}} día llovió.;[sound:aquell_dia_va_ploure.mp3];Aquell dia va ploure.;Aquel día llovió.;aquell/a/s;demostratiu;Demostratius;aquell_dia_va_ploure.mp3
+cat_esp_099;CAT: {{c1::Tres}} són multitud.<br>ESP: {{c2::Tres}} son multitud.;[sound:tres_son_multitud.mp3];Tres són multitud.;Tres son multitud.;tres;numeral;Numerals;tres_son_multitud.mp3
+cat_esp_100;CAT: Quin és el teu {{c1::nivell}}?<br>ESP: ¿Cuál es tu {{c2::nivel}}?;[sound:quin_es_el_teu_nivell.mp3];Quin és el teu nivell?;¿Cuál es tu nivel?;nivell;nom;Mesura/Abstracte;quin_es_el_teu_nivell.mp3
