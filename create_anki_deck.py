@@ -119,6 +119,7 @@ def process_word_batch(words: List[str]) -> Dict[str, List[Dict]]:
                         logging.debug(f"Found meaning for {word}: {catalan_example}")
                     except AttributeError:
                         logging.warning(f"Could not parse meaning section for word {word}")
+                        logging.warning(f"Meaning section contains: {meaning_section}")
                         continue
                 
                 results[word] = meanings
@@ -230,7 +231,7 @@ def create_csv_files(words: List[str], words_per_file: int = 1500, max_words: in
     else:
         logging.info(f"Processing all {len(words)} words")
     
-    total_files = (len(words) + words_per_file - 1) // words_per_file
+    total_files = (len(words) // words_per_file) + 1
     logging.info(f"Will create {total_files} CSV files")
     
     # Process words in batches of 50
