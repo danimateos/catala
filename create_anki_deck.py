@@ -49,8 +49,10 @@ def clean_filename(text: str) -> str:
 
 def process_word_batch(words: List[str]) -> Dict[str, List[Dict]]:
     """Process a batch of words at once using OpenAI."""
-    logging.debug(f"Processing batch of {len(words)} words")
+
     words_str = '", "'.join(words)
+    logging.debug(f"Processing batch of {len(words)} words: {words_str}")
+    
     prompt = f"""
     For each of these Catalan words: "{words_str}"
     
@@ -89,8 +91,10 @@ def process_word_batch(words: List[str]) -> Dict[str, List[Dict]]:
                 {"role": "user", "content": prompt}
             ]
         )
+
         
         content = response.choices[0].message.content
+        logging.debug(f"Batch Response: {content}")
         word_sections = re.split(r'Word: ', content)[1:]  # Skip the first empty split
         
         results = {}
@@ -127,7 +131,7 @@ def process_word_batch(words: List[str]) -> Dict[str, List[Dict]]:
             except Exception as e:
                 logging.error(f"Error processing section for word: {str(e)}")
                 continue
-        
+        logging.debug(f"Results: {results}")
         return results
     except Exception as e:
         logging.error(f"Error processing batch: {str(e)}")
@@ -173,6 +177,7 @@ def get_word_info(word: str, batch_results: Dict[str, List[Dict]] = None) -> Lis
         )
         
         content = response.choices[0].message.content
+        logging.debug(f"Individual response: {content}")
         meanings = []
         
         # Split the content by "Meaning X:" to get each meaning
@@ -297,7 +302,7 @@ def create_csv_files(words: List[str], words_per_file: int = 1500, max_words: in
                             audio_filename  # audio_file_name
                         ])
                         total_cards += 1
-                        logging.debug(f"Created card {card_id}")
+                        logging.debug(f"Created card {card_id} for {word} as in {word_info['catalan_example']}")
             
             logging.info(f"Created {total_cards} cards in {filename}")
 
