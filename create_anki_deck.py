@@ -89,12 +89,17 @@ def process_word_batch(words: List[str]) -> Dict[str, List[Dict]]:
             messages=[
                 {"role": "system", "content": "You are a helpful language tutor."},
                 {"role": "user", "content": prompt}
-            ]
+            ],
+            max_tokens=2000
         )
 
         
         content = response.choices[0].message.content
-        logging.debug(f"Batch Response: {content}")
+        no_newlines = content.replace('\n', ' | ').replace('\r', ' | ')
+        logging.debug(f"Batch Response: {no_newlines}")
+        if "Continue with the rest" in content or "similar manner" in content:
+            logging.warning("Batch response appears truncated or summarized. Falling back to per-word processing for this batch.")
+            return {word: get_word_info(word) for word in words}
         word_sections = re.split(r'Word: ', content)[1:]  # Skip the first empty split
         
         results = {}
@@ -104,8 +109,8 @@ def process_word_batch(words: List[str]) -> Dict[str, List[Dict]]:
                 word = section.split('\n')[0].strip().strip('"')
                 meanings = []
                 
-                # Split by "Meaning X:" to get each meaning
-                meaning_sections = re.split(r'Meaning \d+:', section)[1:]
+                # Split by "Meaning:" or "Meaning X:" to get each meaning
+                meaning_sections = re.split(r'Meaning(?: \d+)?:', section)[1:]
                 
                 for meaning_section in meaning_sections:
                     try:
@@ -173,15 +178,17 @@ def get_word_info(word: str, batch_results: Dict[str, List[Dict]] = None) -> Lis
             messages=[
                 {"role": "system", "content": "You are a helpful language tutor."},
                 {"role": "user", "content": prompt}
-            ]
+            ],
+            max_tokens=2000
         )
         
         content = response.choices[0].message.content
-        logging.debug(f"Individual response: {content}")
+        no_newlines = content.replace('\n', ' | ').replace('\r', ' | ')
+        logging.debug(f"Individual response: {no_newlines}")
         meanings = []
         
-        # Split the content by "Meaning X:" to get each meaning
-        meaning_sections = re.split(r'Meaning \d+:', content)[1:]  # Skip the first empty split
+        # Split the content by "Meaning:" or "Meaning X:" to get each meaning
+        meaning_sections = re.split(r'Meaning(?: \d+)?:', content)[1:]  # Skip the first empty split
         
         for section in meaning_sections:
             try:
@@ -239,8 +246,8 @@ def create_csv_files(words: List[str], words_per_file: int = 1500, max_words: in
     total_files = (len(words) // words_per_file) + 1
     logging.info(f"Will create {total_files} CSV files")
     
-    # Process words in batches of 50
-    batch_size = 50
+    # Process words in smaller batches to avoid truncation
+    batch_size = 10
     batch_results = {}
     
     for file_num in range(total_files):
