@@ -235,7 +235,7 @@ def create_cloze_text(catalan_example: str, spanish_example: str, word: str) -> 
     spanish_cloze = replace_word_in_text(spanish_example, word, f"{{{{c2::{word}}}}}")
     return f"{catalan_cloze}<br>{spanish_cloze}"
 
-def create_csv_files(words: List[str], words_per_file: int = 1500, max_words: int = None):
+def create_csv_files(words: List[str], words_per_file: int = 2000, max_words: int = None, output_prefix: str = "catalan_vocab"):
     """Create CSV files with the specified structure."""
     if max_words:
         words = words[:max_words]
@@ -258,7 +258,7 @@ def create_csv_files(words: List[str], words_per_file: int = 1500, max_words: in
         # Format the filename with padded numbers
         start_num = start_idx + 1
         end_num = end_idx
-        filename = f"catalan_vocab_{start_num:04d}-{end_num:04d}.csv"
+        filename = f"{output_prefix}_{start_num:04d}-{end_num:04d}.csv"
         logging.info(f"Creating file: {filename}")
         
         with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
@@ -317,6 +317,8 @@ def main():
     parser = argparse.ArgumentParser(description='Generate Catalan vocabulary flashcards')
     parser.add_argument('--max-words', type=int, help='Maximum number of words to process (for testing)')
     parser.add_argument('--debug', action='store_true', help='Enable debug logging')
+    parser.add_argument('--input-file', type=str, default='final_catalan_words_list.txt', help='Path to input word list file')
+    parser.add_argument('--output-prefix', type=str, default='catalan_vocab', help='Output CSV filename prefix')
     args = parser.parse_args()
     
     # Set up logging
@@ -325,12 +327,12 @@ def main():
     
     # Read words from file
     logging.info("Reading words from file...")
-    with open('final_catalan_words_list.txt', 'r', encoding='utf-8') as f:
+    with open(args.input_file, 'r', encoding='utf-8') as f:
         words = [line.strip() for line in f if line.strip()]
     logging.info(f"Read {len(words)} words from file")
     
     # Create CSV files
-    create_csv_files(words, max_words=args.max_words)
+    create_csv_files(words, max_words=args.max_words, output_prefix=args.output_prefix)
     logging.info("CSV files created successfully!")
 
 if __name__ == "__main__":
